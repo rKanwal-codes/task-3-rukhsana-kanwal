@@ -1,0 +1,13 @@
+{
+  "name": "decodelabs-project3-database-integration",
+  "version": "1.0.0",
+  "description": "DecodeLabs Internship - Project 3: Database Integration (SQLite + Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "seed": "node --experimental-sqlite seed.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
